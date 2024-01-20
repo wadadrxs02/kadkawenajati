@@ -433,6 +433,7 @@ body {
   width: 100vw;
   position: relative;
   height: -webkit-fill-available;
+  background-image: url(images/covers/bg.png);
 }
 .btn-primary {
   background-color: #ebbf64 !important;
