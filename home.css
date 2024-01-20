@@ -244,7 +244,7 @@
 
 .gridcontainer {
   display: grid;
-  grid-template-columns: 65% auto auto;
+  grid-template-columns: 100% auto auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }
