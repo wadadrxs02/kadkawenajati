@@ -5,7 +5,8 @@ body {
   flex-direction: column;
   margin: 0 auto;
   height: 100vh;
-  background-image: url(images/covers/bg.png);
+  background-color: white;
+
   font-family: "Quicksand", sans-serif;
   background-size: cover;
   padding: 0;
