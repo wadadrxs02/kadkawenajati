@@ -404,7 +404,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
+    background-image: url(images/covers/bg.png);
   }
 }
 .timer-style {
