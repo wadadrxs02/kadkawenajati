@@ -404,7 +404,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/covers/bg.png);
+    background-color: white;
+
     object-fit: cover;
   }
 }
@@ -434,7 +435,7 @@ body {
   width: 100vw;
   position: relative;
   height: -webkit-fill-available;
-  background-image: url(images/covers/bg.png);
+  background-color: white;
 }
 .btn-primary {
   background-color: #ebbf64 !important;
