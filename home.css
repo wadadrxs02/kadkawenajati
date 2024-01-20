@@ -405,6 +405,7 @@
     justify-content: center;
     align-items: center;
     background-image: url(images/covers/bg.png);
+    object-fit: cover;
   }
 }
 .timer-style {
