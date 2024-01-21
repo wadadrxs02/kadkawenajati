@@ -34,7 +34,7 @@
 
 /* toolbar bottom */
 .toolbar {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   bottom: 0;
   width: 100%;
@@ -417,13 +417,14 @@
 }
 html {
   height: -webkit-fill-available;
+  min-height: 100%;
 }
 
 body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100%;
   height: -webkit-fill-available;
   font-family: "Quicksand", sans-serif !important;
   background-color: white;
