@@ -40,10 +40,16 @@
         }
 
         .modal-container {
+            position: fixed;
             margin: auto;
-            background-image: url(https://walimatulurusizzatiobaied.kahwin.me/images/covers/selamat.png);
+            left: 0;
+            right: 0;
+            top: 0;
             width: 100%;
+            height: 100vh;
+            background-image: url(images/covers/selamat.png);
             background-size: contain;
+
         }
     </style>
 </head>
@@ -51,11 +57,42 @@
 <body>
 
     <div class="main_frame">
+        <iframe src="home.html" style="width:100vw;height:100vh" class="size_frame"></iframe>
         <div class="modal-container size_frame" id="modal-covid" onclick="hideModal();" onscroll="hideModal();">
         </div>
-        <iframe src="home.html" style="width:100vw;height:100vh" class="size_frame">
-        </iframe>
     </div>
+    <!--============END TIMER================-->
+    <!-- toolbar bottom -->
+    <footer class="toolbar ">
+        <ul class="toolbar-bottom toolbar-wrap">
+            <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalRSVP">
+                    <i class="fas fa-envelope-open fa-2x"></i>
+                    RSVP
+                </button>
+            </li>
+            <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalContact">
+                    <i class="fas fa-phone fa-2x"></i>
+                    CONTACT
+                </button>
+            </li>
+            <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalMap">
+                    <i class="fas fa-map-marked-alt fa-2x"></i>
+                    LOCATION
+                </button>
+            </li>
+            <!--      <li class="toolbar-item">
+                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalGift">
+
+                    <i class="fas fa-solid fa-gift fa-2x"></i>
+                    GIFT
+                </button>
+            </li> -->
+        </ul>
+    </footer>
+
     <!--=========================================START MODAL RSVP==================================================-->
 
     <div class="modal fade" id="ModalRSVP" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
@@ -158,7 +195,6 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -222,37 +258,6 @@
     </div>
     <!--================================END Modal gift===========================================================-->
 
-    <!--============END TIMER================-->
-    <!-- toolbar bottom -->
-    <footer class="toolbar">
-        <ul class="toolbar-bottom toolbar-wrap">
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalRSVP">
-                    <i class="fas fa-envelope-open fa-2x"></i>
-                    RSVP
-                </button>
-            </li>
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalContact">
-                    <i class="fas fa-phone fa-2x"></i>
-                    CONTACT
-                </button>
-            </li>
-            <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalMap">
-                    <i class="fas fa-map-marked-alt fa-2x"></i>
-                    LOCATION
-                </button>
-            </li>
-            <!--      <li class="toolbar-item">
-                <button type="button" class="toolbar-link text-light" data-toggle="modal" data-target="#ModalGift">
-
-                    <i class="fas fa-solid fa-gift fa-2x"></i>
-                    GIFT
-                </button>
-            </li> -->
-        </ul>
-    </footer>
     <!-- end toolbar bottom -->
 </body>
 <!-- Optional JavaScript -->
