@@ -33,13 +33,13 @@
 }
 
 /* toolbar bottom */
-/* .toolbar {
+.toolbar {
   position: fixed;
   overflow: hidden;
   bottom: 0;
   width: 100%;
   float: bottom;
-} */
+}
 
 .toolbar-bottom {
   position: fixed;
