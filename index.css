@@ -15,7 +15,28 @@ body {
   text-align: center;
 }
 
-@media only screen and (min-width: 992px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .size_frame {
+    width: 28% !important;
+    height: 100vh !important;
+    height: -webkit-fill-available;
+    text-align: center !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .size_frame {
+    width: 28% !important;
+    height: 100vh !important;
+    height: -webkit-fill-available;
+    text-align: center !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .size_frame {
     width: 28% !important;
     height: 100vh !important;
