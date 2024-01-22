@@ -15,8 +15,13 @@ body {
   text-align: center;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media only screen and (max-width: 600px) {
+}
+
+/* Additional media queries for different screen sizes can be added as needed */
+/* For example, you might add styles for tablets or larger screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablets */
   .size_frame {
     width: 28% !important;
     height: 100vh !important;
@@ -25,18 +30,53 @@ body {
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Styles for smartphones in portrait orientation */
+@media only screen and (max-width: 600px) {
   .size_frame {
-    width: 28% !important;
+    width: 100%;
+    height: 100vh !important;
+    text-align: center !important;
+  }
+}
+
+/* Styles for smartphones in landscape orientation */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .size_frame {
+    width: 100% !important;
+    height: 150vh !important;
+    text-align: center !important;
+  }
+}
+
+/* Styles for tablets in portrait orientation */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .size_frame {
+    width: 60% !important;
     height: 100vh !important;
     height: -webkit-fill-available;
     text-align: center !important;
   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Styles for tablets in landscape orientation */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .size_frame {
+    width: 50% !important;
+    height: 100vh !important;
+    text-align: center !important;
+  }
+}
+/* Styles for small laptops and desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .size_frame {
+    width: 50% !important;
+    height: 100vh !important;
+    height: -webkit-fill-available;
+    text-align: center !important;
+  }
+}
+/* Styles for large laptops and desktops */
+@media only screen and (min-width: 1200px) {
   .size_frame {
     width: 28% !important;
     height: 100vh !important;
