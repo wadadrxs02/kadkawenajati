@@ -16,11 +16,11 @@
 }
 .cover-bg-2 {
   background-image: url(images/covers/girl2.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 150vh;
-  margin: auto;
+  height: 100%;
+  margin: 0;
   left: 0;
   right: 0;
   top: 0;
