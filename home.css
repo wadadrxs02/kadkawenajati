@@ -14,7 +14,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 150vh;
+  height: 100vh;
+  margin: 0px auto;
 }
 /* .cover-bg-3 {
   background-image: url(../images/covers/kad4.png);
