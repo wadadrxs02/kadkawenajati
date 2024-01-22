@@ -15,21 +15,6 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-}
-
-/* Additional media queries for different screen sizes can be added as needed */
-/* For example, you might add styles for tablets or larger screens */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Styles for tablets */
-  .size_frame {
-    width: 28% !important;
-    height: 100vh !important;
-    height: -webkit-fill-available;
-    text-align: center !important;
-  }
-}
-
 /* Styles for smartphones in portrait orientation */
 @media only screen and (max-width: 600px) {
   .size_frame {
@@ -53,7 +38,6 @@ body {
   .size_frame {
     width: 60% !important;
     height: 100vh !important;
-    height: -webkit-fill-available;
     text-align: center !important;
   }
 }
@@ -71,7 +55,6 @@ body {
   .size_frame {
     width: 50% !important;
     height: 100vh !important;
-    height: -webkit-fill-available;
     text-align: center !important;
   }
 }
@@ -80,7 +63,6 @@ body {
   .size_frame {
     width: 28% !important;
     height: 100vh !important;
-    height: -webkit-fill-available;
     text-align: center !important;
   }
 }
