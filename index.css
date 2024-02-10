@@ -28,7 +28,7 @@ body {
 @media only screen and (min-width: 601px) and (max-width: 767px) {
   .size_frame {
     width: 100% !important;
-    height: 150vh !important;
+    height: 200vh !important;
     text-align: center !important;
   }
 }
