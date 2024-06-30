@@ -11,6 +11,19 @@
   margin: 0;
   padding: 0;
 }
+/* iPhone 12 Mini (360px width) */
+@media (max-width: 400px) {
+  .cover-bg-1 {
+    background-image: url(images/covers/girl.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .cover-bg-2 {
   background-image: url(images/covers/girl2.png);
   background-size: cover;
@@ -21,11 +34,18 @@
   padding: 0;
 }
 
-/* .cover-bg-3 {
-  background-image: url(../images/covers/kad4.png);
-} */
-/* .cover-bg-2 .cover-overlay{background-color:rgba(0,0,0,0.85);} */
-
+/* iPhone 12 Mini (360px width) */
+@media (max-width: 400px) {
+  .cover-bg-2 {
+    background-image: url(images/covers/girl2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+  }
+}
 .cover-class3 {
   /* height: 50vh; */
   /* margin-top: 40px; */
