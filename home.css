@@ -31,6 +31,34 @@
   margin-bottom: 130px;
 }
 
+/* nav-bar */
+
+.navbar {
+  background-color: #839073; /* Match the background color */
+}
+
+.nav-link {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.nav-link i {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* toolbar bottom */
 .toolbar {
   position: absolute;
@@ -43,7 +71,7 @@
 
 .toolbar-bottom {
   position: fixed;
-  background: #212529;
+  background: #a4774b;
   height: 68px;
   bottom: 0vh;
   left: 0;
@@ -118,7 +146,7 @@
 }
 
 .modal-header {
-  background-color: #A77D52;
+  background-color: #a77d52;
 }
 
 .buttonhadir {
@@ -322,8 +350,8 @@
 #timer {
   font-size: 2.5em;
   font-weight: 100;
-  color: #A77D52;
-  text-shadow: 0 0 20px #A77D52;
+  color: #a77d52;
+  text-shadow: 0 0 20px #a77d52;
 }
 
 #timer div {
@@ -342,7 +370,7 @@
     position: relative;
     width: 70vmin;
     height: 70vmin;
-    background: #A77D52;
+    background: #a77d52;
     -webkit-clip-path: polygon(
       50% 0%,
       83% 12%,
@@ -439,7 +467,7 @@ body {
   background-color: white;
 }
 .btn-primary {
-  background-color: #A77D52 !important;
+  background-color: #a77d52 !important;
   border: 0;
   color: #000000;
 }
@@ -513,7 +541,7 @@ ul {
 
 .button-17:hover {
   background: #fdf0d5;
-  color: #A77D52;
+  color: #a77d52;
 }
 
 .button-17:active {
@@ -524,7 +552,7 @@ ul {
 
 .button-17:focus {
   outline: none;
-  border: 2px solid #A77D52;
+  border: 2px solid #a77d52;
 }
 
 .button-17:not(:disabled) {

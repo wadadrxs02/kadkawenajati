@@ -28,3 +28,7 @@ $("#kedatangan").change(function () {
     $("#ModalRSVP").modal("hide");
   }
 });
+<script
+  src="https://kit.fontawesome.com/4bc1e74ed0.js"
+  crossorigin="anonymous"
+></script>;
