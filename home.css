@@ -25,7 +25,12 @@
 @media (max-width: 600px) {
   .cover-bg-2 {
     background-image: url(images/covers/girl2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 200vh;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -33,7 +38,12 @@
 @media (min-width: 600px) and (max-width: 900px) {
   .cover-bg-2 {
     background-image: url(images/covers/girl2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 180vh;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -41,7 +51,12 @@
 @media (min-width: 900px) {
   .cover-bg-2 {
     background-image: url(images/covers/girl2.png);
-    height: 140vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 180vh;
+    margin: 0;
+    padding: 0;
   }
 }
 /* .cover-bg-3 {
