@@ -490,16 +490,13 @@ ul {
 .a {
   padding-right: 4px;
 }
-#showcalendar {
-  display: none;
-}
 
 #namaform {
   display: none;
 }
 .instruction {
   text-align: center;
-  color: #555a61;
+  color: #000000;
 }
 
 /* CSS */
