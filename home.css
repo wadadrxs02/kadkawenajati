@@ -20,6 +20,30 @@
   margin: 0;
   padding: 0;
 }
+
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .cover-bg-2 {
+    background-image: url(images/covers/girl2.png);
+    height: 200vh;
+  }
+}
+
+/* Medium devices (tablets, 600px to 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+  .cover-bg-2 {
+    background-image: url(images/covers/girl2.png);
+    height: 180vh;
+  }
+}
+
+/* Large devices (desktops, 900px and up) */
+@media (min-width: 900px) {
+  .cover-bg-2 {
+    background-image: url(images/covers/girl2.png);
+    height: 140vh;
+  }
+}
 /* .cover-bg-3 {
   background-image: url(../images/covers/kad4.png);
 } */
