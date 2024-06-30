@@ -21,44 +21,6 @@
   padding: 0;
 }
 
-/* Small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-  .cover-bg-2 {
-    background-image: url(images/covers/girl2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 200vh;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-/* Medium devices (tablets, 600px to 900px) */
-@media (min-width: 600px) and (max-width: 900px) {
-  .cover-bg-2 {
-    background-image: url(images/covers/girl2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 180vh;
-    margin: 0;
-    padding: 0;
-  }
-}
-
-/* Large devices (desktops, 900px and up) */
-@media (min-width: 900px) {
-  .cover-bg-2 {
-    background-image: url(images/covers/girl2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 180vh;
-    margin: 0;
-    padding: 0;
-  }
-}
 /* .cover-bg-3 {
   background-image: url(../images/covers/kad4.png);
 } */
