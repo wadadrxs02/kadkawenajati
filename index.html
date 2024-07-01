@@ -37,7 +37,9 @@
     <link rel="icon" href="images/icons/rings.png">
     <style>
         .hide {
-            display: none;
+            display: none !important;
+            visibility: hidden !important;
+
         }
 
         .unhide {
@@ -92,7 +94,8 @@
     </footer>
     <!--=========================================START MODAL RSVP==================================================-->
 
-    <div class="modal fade" id="ModalRSVP" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="ModalRSVP" tabindex="-1" role="dialog" aria-labelledby="ModalRSVPLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -102,12 +105,6 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!-- <p class="instruction"><b>Sila jawab kehadiran anda di bawah <br> SEBELUM 15 Julai 2024. <br>
-                        </b> </p>
-                    <hr>
-                    <p class="instruction"><b> Please respond to your presence below <br> BEFORE 15 July 2024.
-                        </b> </p> -->
-
                     <form name="rsvpform" method="post" id="sheetdb-form"
                         action="https://sheetdb.io/api/v1/ztrb24avk9zf1">
                         <div class="form-group rsvpform">
@@ -258,8 +255,7 @@
         </div>
     </div>
     <!--================================END Modal Map===========================================================-->
-    <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" asyncdefer></script>
-
+    <script src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"></script>
     <!-- end toolbar bottom -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
@@ -267,6 +263,7 @@
     <!-- Optional JavaScript -->
     <script src="https://kit.fontawesome.com/4bc1e74ed0.js" crossorigin="anonymous"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

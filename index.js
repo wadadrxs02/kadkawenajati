@@ -7,10 +7,12 @@ form.addEventListener("submit", (e) => {
   })
     .then((response) => response.json())
     .then((html) => {
-      // you can put any JS code here
       alert("RSVP anda berjaya dihantar. Terima Kasih :) ");
       form.reset();
       $("#ModalRSVP").modal("hide");
+        $('.modal-backdrop').removeClass('modal-backdrop fade show');
+        $('.modal-backdrop').remove();
+
     });
 });
 
