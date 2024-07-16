@@ -11,44 +11,53 @@
   margin: 0;
   padding: 0;
 }
+/* iPhone 12 Mini (360px width) */
+@media (max-width: 360px) {
+  .cover-bg-1 {
+    background-image: url(images/covers/girl.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .cover-bg-2 {
   background-image: url(images/covers/girl2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 180vh;
+  height: 190vh;
   margin: 0;
   padding: 0;
 }
 
-/* Small devices (phones, 600px and down) */
-@media (max-width: 600px) {
+/* iPhone 12 Mini (360px width) */
+@media (max-width: 360px) {
   .cover-bg-2 {
     background-image: url(images/covers/girl2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 200vh;
+    margin: 0;
+    padding: 0;
   }
 }
-
-/* Medium devices (tablets, 600px to 900px) */
-@media (min-width: 600px) and (max-width: 900px) {
+/* iPhone 12 Mini (360px width) */
+@media (min-width: 390px) and (max-width: 600px) {
   .cover-bg-2 {
     background-image: url(images/covers/girl2.png);
-    height: 180vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
   }
 }
-
-/* Large devices (desktops, 900px and up) */
-@media (min-width: 900px) {
-  .cover-bg-2 {
-    background-image: url(images/covers/girl2.png);
-    height: 140vh;
-  }
-}
-/* .cover-bg-3 {
-  background-image: url(../images/covers/kad4.png);
-} */
-/* .cover-bg-2 .cover-overlay{background-color:rgba(0,0,0,0.85);} */
-
 .cover-class3 {
   /* height: 50vh; */
   /* margin-top: 40px; */

@@ -7,10 +7,12 @@ form.addEventListener("submit", (e) => {
   })
     .then((response) => response.json())
     .then((html) => {
-      // you can put any JS code here
       alert("RSVP anda berjaya dihantar. Terima Kasih :) ");
       form.reset();
       $("#ModalRSVP").modal("hide");
+        $('.modal-backdrop').removeClass('modal-backdrop fade show');
+        $('.modal-backdrop').remove();
+
     });
 });
 
@@ -28,3 +30,22 @@ $("#kedatangan").change(function () {
     $("#ModalRSVP").modal("hide");
   }
 });
+
+
+
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+                event.preventDefault();
+            }
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && (event.key === 'U' || event.key === 'S' || event.key === 'P')) {
+                event.preventDefault();
+            }
+        });
+   
