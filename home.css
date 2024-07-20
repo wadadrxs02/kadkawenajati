@@ -18,7 +18,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    height: 90vh;
     margin: 0;
     padding: 0;
   }
@@ -29,7 +29,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 200vh;
+  height: 180vh;
   margin: 0;
   padding: 0;
 }
@@ -41,7 +41,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 200vh;
+    height: 180vh;
     margin: 0;
     padding: 0;
   }
